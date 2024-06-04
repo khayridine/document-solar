@@ -1,0 +1,121 @@
+/* components/PvCapacityCalculator.module.css
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #555;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0070f3;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+*/
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: url('/solar2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  color: white;
+}
+
+.heading {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #fff;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0070f3;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fff;
+}

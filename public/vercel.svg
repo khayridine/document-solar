@@ -1,0 +1,21 @@
+<svg width="50000" height="50000" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .sun { fill: #FFA500; }
+    .rays { fill: #FFD700; }
+    .panel { fill: #1E90FF; }
+    .text { fill: #000; font-family: Arial, sans-serif; font-size: 10000px; font-weight: bold; }
+  </style>
+  <circle cx="1000" cy="740" r="720" class="sun"/>
+  <g class="rays">
+    <rect x="392" y="40" width="16" height="100"/>
+    <rect x="392" y="580" width="16" height="100"/>
+    <rect x="592" y="232" width="100" height="16"/>
+    <rect x="108" y="232" width="100" height="16"/>
+    <rect x="530" y="100" width="16" height="100" transform="rotate(45 538 150)"/>
+    <rect x="170" y="420" width="16" height="100" transform="rotate(-45 178 470)"/>
+    <rect x="530" y="420" width="16" height="100" transform="rotate(-45 538 470)"/>
+    <rect x="170" y="100" width="16" height="100" transform="rotate(45 178 150)"/>
+  </g>
+  <rect x="240" y="480" width="320" height="160" class="panel"/>
+  <text x="200" y="700" class="text">SPP</text>
+</svg>
